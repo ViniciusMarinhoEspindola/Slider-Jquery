@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>slider</title>
+	<!-- CSS Slider -->
+	<link rel="stylesheet" type="text/css" href="slider.css">
+</head>
+<body>
+	<div id="slider">
+		<ul class="images">
+			<li class="slide-position">
+				<!-- Imagem do Slide -->
+				<img src="imagens/img1.jpg">
+				<!-- Descrição da imagem (opcional) -->
+				<div class="description">
+					<h3>Slide 1</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
+			</li>
+			<li>
+				<img src="imagens/img2.jpg">
+				<div class="description">
+					<h3>Slide 2</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
+			</li>
+			<li>
+				<img src="imagens/img3.jpg">
+				<div class="description">
+					<h3>Slide 3</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat.</p>
+				</div>
+			</li>
+			<li>
+				<img src="imagens/img4.jpg">
+				<div class="description">
+					<h3>Slide 4</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse.</p>
+				</div>
+			</li>
+			<li>
+				<img src="imagens/img5.jpg">
+				<div class="description">
+					<h3>Slide 5</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse.</p>
+				</div>
+			</li>
+			<!-- Adicione outro slide aqui -->
+			<!-- Exemplo:
+				<li>
+					<img src="imagens/(nova imagem).jpg">
+					# Descrição (opcional)
+					<div class="description">
+						<h3>(Título da descrição)</h3>
+						<p>(Texto da descrição)</p>
+					</div>
+				</li>
+			-->
+		</ul>
+		
+		<!-- Botões de anterior e próxima imagem -->
+		<div class="button prev" onclick="prev();"><img src="imagens/arrow-left-direction.svg" width="50%"></div>
+		<div class="button next" onclick="next();"><img src="imagens/right-black-arrow.svg" width="50%"></div>
+	</div>
+
+	<!-- JQuery -->
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+	<!-- Script Slider -->
+	<script src="slider.js"></script>
+
+	<!-- Link do ícone -->
+	<div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/"             title="Flaticon">www.flaticon.com</a></div>
+</body>
+</html>
